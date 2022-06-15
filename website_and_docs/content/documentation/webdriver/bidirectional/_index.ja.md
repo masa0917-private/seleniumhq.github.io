@@ -11,18 +11,15 @@ aliases: [
 {{% pageinfo color="warning" %}}
 <p class="lead">
    <i class="fas fa-language display-4"></i> 
-    Page being translated from English to Japanese. 
-    Do you speak Japanese? Help us to translate
-    it by sending us pull requests!
+    日本語表記のページです。
+    日本語を話せますか？ 
+    pull requestsをして翻訳を手伝ってください。
 </p>
 {{% /pageinfo %}}
 
-Selenium is working with browser vendors to create the
-[WebDriver BiDirectional Protocol](https://w3c.github.io/webdriver-bidi/)
-as a means to provide a stable, cross-browser API that uses the bidirectional
-functionality useful for both browser automation generally and testing specifically.
-Before now, users seeking this functionality have had to rely on
-with all of its frustrations and limitations.
+Seleniumはブラウザベンダーと協力してブラウザの自動化とテストの両面で有用な双方向の機能を使用し、
+安定した クロスブラウザAPI [WebDriver BiDirectional Protocol](https://w3c.github.io/webdriver-bidi/)
+を作成しました。これまでは、本APIのような機能を望むユーザーは不満と制約に苛まれていました。
 
 The traditional WebDriver model of strict request/response commands will be supplemented
 with the ability to stream events from the user agent to the controlling software via WebSockets,
